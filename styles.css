@@ -1,11 +1,26 @@
 /* 
     ---------------------------------------------------------------
     Add your name to this file below:
-    NAME: 
+    NAME: Marcia Karen Smith Abrams Almasi
     ---------------------------------------------------------------
 */
 
-
+.seymour-one-regular {
+	font-family: "Seymour One", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+  }
+  .lato-regular-italic {
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	font-style: italic;
+  }
+  .lato-bold {
+	font-family: "Lato", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+  }
+  
 /* Remember, the root element is where you can declare CSS variables */
 :root{
     /* Theme colors in CSS variables */
