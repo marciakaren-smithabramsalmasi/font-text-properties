@@ -87,15 +87,18 @@ nav ul{
 }
 
 nav a{
-	/* make these display as block level elements */
+	display: block;
+	
 	margin: 1rem auto;
 	padding: 1rem;
 	background-color: var(--tiffany);
-	/* set the font color to #222 (--dk-gray) */
-	/* center align the text */
-	/* remove the underline */
-	/* make the font's size 1.2rem */
-	/* make the font bolder (600) */
+	color:#222 (--dark-gray)
+	
+	text-align: center;
+	text-decoration: none;
+	font-size: 1.2rem;
+	font-weight: 600;
+	
 }
 
 nav a:hover{
@@ -116,8 +119,9 @@ section{
 }
 
 p{
-	/* set a max-width of 55 characters */
-	/* add an indent on the first line of 2rem */
+	max-width: 55ch;
+	text-indent: 2rem;
+	
 	/* center those paragraphs (not the text) on the page */
 	padding: 0.5rem;
 }
